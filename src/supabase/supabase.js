@@ -1,0 +1,3 @@
+export const supabaseUrl = 'https://skotefhdkqtrmykssrxa.supabase.co';
+export const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNrb3RlZmhka3F0cm15a3NzcnhhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjM2OTczMTYsImV4cCI6MjAzOTI3MzMxNn0.y0AlptXYIK4pUE4PNBM5tJp2sNWZ_WTtS-i9lNjd4uk';
+export const supabase = createClient(supabaseUrl, supabaseKey);
